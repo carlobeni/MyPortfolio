@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "</carlobeni>",
+  "text": "Hi there!, I'm a freelance user interface developer.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Let's work together"
     },
     {
-      "title": "Learn more",
+      "title": "My Resume (PDF)",
       "color": "#fff"
     }
   ]

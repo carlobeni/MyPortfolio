@@ -1,0 +1,33 @@
+{
+  "title": "#Skills",
+  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "section": [
+    {
+      "icon":"react.svg"
+    },
+    {
+      "icon":"firebase.svg"
+    },
+    {
+      "icon":"typescript.svg"
+    },
+    {
+      "icon":"python.svg"
+    },
+    {
+      "icon":"unity.svg"
+    },
+    {
+      "icon":"arduino.svg"
+    },
+    {
+      "icon":"ant-design.svg"
+    },
+    {
+      "icon":"github.svg"
+    },
+    {
+      "icon":"latex.svg"
+    }
+  ]
+}

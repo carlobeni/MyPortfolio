@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
-export const HeaderSection = styled("header")`
+export const HeaderSection = styled.header`
   padding: 1rem 0.5rem;
-
-  .ant-row-space-between {
-    align-items: center;
-    text-align: center;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 `;
 
 export const LogoContainer = styled(Link)`
@@ -31,6 +31,15 @@ export const CustomNavLink = styled("div")`
   @media only screen and (max-width: 320px) {
     width: 118px;
   }
+`;
+
+export const ContactWrapper = styled("div")<any>`
+  cursor: pointer;
+  width: ${(p) => (p.width ? "100%" : "110px")};
+  font-weight: 700;
+  text-align: center;
+  border-radius: 1.25rem;
+  display: inline-block;
 `;
 
 export const Burger = styled("div")`
@@ -77,7 +86,7 @@ export const Label = styled("span")`
   align-items: baseline;
 `;
 
-export const Outline = styled(MenuOutlined)`
+export const Outline = styled(MenuOutlined)<any>`
   font-size: 22px;
 `;
 
@@ -92,4 +101,23 @@ export const Span = styled("span")`
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }
+`;
+
+export const LanguageSwitch = styled("div")`
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+`;
+
+export const LanguageSwitchContainer = styled("div")`
+  display: flex;
+  justify-content: space-between;
+  width: 85px;
 `;

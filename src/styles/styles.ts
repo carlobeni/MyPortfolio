@@ -14,6 +14,12 @@ export const Styles = createGlobalStyle`
         font-style: normal;
     }
 
+    @font-face {
+        font-family: "Curve Font";
+        src: url("/fonts/Curve-Font.woff2") format("truetype");
+        font-style: normal;
+    }
+
 
     body,
     html,
@@ -27,12 +33,11 @@ export const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
         overflow-x: hidden;
     }
 
     a:hover {
-        color: #18216d;
+        color: #18216e;
     }
 
     input,
@@ -55,10 +60,26 @@ export const Styles = createGlobalStyle`
     h2,
     h3,
     h4,
-    h5,
-    h6 {
+    {
         font-family: 'Motiva Sans Bold', serif;
         color: #18216d;
+        font-size: 56px;
+        line-height: 1.18;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 47px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 32px;
+        }
+    }
+
+    h5,
+    h6 
+    {
+        font-family: 'Curve Font', serif;
+        color:rgb(255, 130, 92);
         font-size: 56px;
         line-height: 1.18;
 
