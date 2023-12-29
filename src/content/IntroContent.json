@@ -3,11 +3,16 @@
   "text": "Hi there!, I'm a freelance user interface developer.",
   "button": [
     {
-      "title": "Let's work together"
+      "title": "Let's work together",
+      "color": "",
+      "linkPDF": "",
+      "scroll": "contact"
     },
     {
       "title": "My Resume (PDF)",
-      "color": "#fff"
+      "color": "#fff",
+      "linkPDF":"",
+      "scroll": ""
     }
   ]
 }

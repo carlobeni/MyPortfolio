@@ -7,16 +7,17 @@ export interface ContentBlockProps {
     title: string;
     content: string;
     icon: string;
+    scroll: string;
+    linkPDF: string;
   }[];
   button?: (
-    | {
-        title: string;
-        color?: undefined;
-      }
-    | {
-        title: string;
-        color: string;
-      }
+    {
+      title: string;
+      color: string;
+      scroll: string;
+      linkPDF: string;
+    }
+
   )[];
   t: TFunction;
   id: string;
