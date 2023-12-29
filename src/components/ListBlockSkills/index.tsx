@@ -1,7 +1,6 @@
 import { Row, Col, Card } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
-import { GithubOutlined } from "@ant-design/icons";
 
 import { ListBlockSkillsProps } from "./types";
 import {
@@ -11,7 +10,6 @@ import {
   StyledRow,
 } from "./styles";
 import { SvgIcon } from "../../common/SvgIcon";
-import Meta from "antd/lib/card/Meta";
 
 const ListBlockSkills = ({
   icon,

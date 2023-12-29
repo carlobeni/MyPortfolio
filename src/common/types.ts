@@ -22,7 +22,7 @@ export interface InputProps {
   placeholder: string;
   t: TFunction;
   type?: string;
-  value?: string;
+  value: string;
   onChange: (
     event:
       | React.ChangeEvent<HTMLInputElement>

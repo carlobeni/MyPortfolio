@@ -27,7 +27,7 @@ const Contact = ({ title, id, t }: ContactProps) => {
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left" triggerOnce>
-            <Block title={title} content=""/>
+            <Block title={title} content="" />
           </Slide>
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
@@ -38,7 +38,7 @@ const Contact = ({ title, id, t }: ContactProps) => {
                   type="text"
                   name="name"
                   placeholder="Your Name"
-                  value={values.name || ""}
+                  value={values.name}
                   onChange={handleChange}
                 />
                 <ValidationType type="name" />
@@ -48,7 +48,7 @@ const Contact = ({ title, id, t }: ContactProps) => {
                   type="text"
                   name="email"
                   placeholder="Your Email"
-                  value={values.email || ""}
+                  value={values.email}
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
@@ -56,7 +56,7 @@ const Contact = ({ title, id, t }: ContactProps) => {
               <Col span={24}>
                 <TextArea
                   placeholder="Your Message"
-                  value={values.message || ""}
+                  value={values.message}
                   name="message"
                   onChange={handleChange}
                 />

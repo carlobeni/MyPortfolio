@@ -1,8 +1,6 @@
 // CustomCard.tsx
 import React from 'react';
 import './CustomCard.css';
-import { Button } from 'antd';
-import { GithubOutlined } from '@ant-design/icons';
 
 
 interface CustomCardProps {

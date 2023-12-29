@@ -1,4 +1,3 @@
-import { Row, Col, Card } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 import { ListBlockProjectsProps } from "./types";
@@ -10,9 +9,7 @@ import {
 import { CustomCard } from "../Card";
 
 const ListBlockProjects = ({
-  icon,
   title,
-  content,
   section,
   t,
   id,

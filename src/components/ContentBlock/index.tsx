@@ -1,4 +1,4 @@
-import { Row, Col } from "antd";
+import { Col } from "antd";
 import { Fade } from "react-awesome-reveal";
 import { withTranslation } from "react-i18next";
 
@@ -57,8 +57,9 @@ const ContentBlock = ({
                     <Button
                       key={1}
                       color={button[1].color}
-                      onClick={() => scrollTo(button[1].scroll)}>
-                      {button[1].title}
+                      >
+                        <a href="/pdf/MyResume.pdf" download>{button[1].title}</a>
+                      
                     </Button>
                   </>)
                 }
