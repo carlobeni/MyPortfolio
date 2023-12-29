@@ -3,22 +3,22 @@
   "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
   "section": [
     {
-      "title": "</BioCareAI>",
+      "title": "{BioCareAI}",
       "content": "Custom chatbot, which uses OpenAI's GPT-3.5 with a medical focus 🤖👨‍⚕️ that integrates biomedical data from ESP32 using Firebase's RealTimeDataBase 📊💻.",
       "repoLink": "https://github.com/carlobeni/BioCareAI"
     },
     {
-      "title": "</AQIWeb>",
+      "title": "{AQI Web}",
       "content": "It uses OpenWeatherMap to show air quality index anywhere. Include a autocomplete feature thanks to geoapify, making it easier to find locations📍",
       "repoLink": "https://github.com/carlobeni/aqi-react-app"
     },
     {
-      "title": "</ClassFiWeb>",
+      "title": "{ClassFiWeb}",
       "content": "ClassFiWeb is a schedule organization system designed for engineering faculty students at The Facultad de Ingeniería de la Universidad Nacional de Asunción. The classes are downloaded from the publicly accessible Google Sheets, where they are uploaded and updated in real-time 📅",
       "repoLink": "https://github.com/carlobeni/ClassfiWeb"
     },
     {
-      "title": "</NumericalMathFunctions>",
+      "title": "{Numerical Math Functions}",
       "content": "Set of Python functions for numerical resolution of equations in the real domain. False Position, Bisection, Secant Method, and Newton-Raphson are employed for effective solution finding. The results are displayed in the terminal in LaTeX format. 🐍🔢🖥️.",
       "repoLink": "https://github.com/carlobeni/BioCareAI"
     }   
